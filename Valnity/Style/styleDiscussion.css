@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans',sans-serif;
+	background-image: url(valo4.jpg);
+	background-color: #0a0e13;
+	background-position: 0px -10px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+.hide{
+    display: none;
+}
+
+.container{
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+    color:#FEFEFE;
+	margin: 20px;
+    padding: 20px;
+}
+
+.head{
+    display: flex;
+    background-color: #2C2C2C;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.comment {
+	margin-top: 20px;
+}
+.authors{
+    flex: 20%;
+}
+
+.content{
+    flex: 80%;
+}
+.content .judul {
+	font-size: 20px;
+}
+.body{
+    display: flex;
+    background-color: #131415;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.body .authors .username{
+    font-size: 20px;
+}
+
+.body .authors img{
+    max-width: 250px;
+}
+
+.body .content .comment button{
+    border:none;
+    padding:10px;
+    font-weight: bolder;
+    box-shadow: 4px 6px #fff;
+    cursor: pointer;
+    float: right;
+}
+
+/* comment section */
+.comment-area{
+    margin-bottom:50px;
+}
+
+.comment-area textarea{
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    margin-block: 10px;
+}
+
+.comment-area input{
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.comment-area input:hover{
+    border: solid 1px #000000;
+}
+
+@media screen and (max-width: 460px) {
+    .container{
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 460px) and (max-width: 1024px) {
+    .container{
+        margin: 15px;
+        padding: 15px;
+    }
+}

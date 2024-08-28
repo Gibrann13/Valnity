@@ -1,0 +1,76 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "DIN Next LT Pro Bold", sans-serif;
+	background-image: url(valo4.jpg);
+	background-color: #0a0e13;
+	background-position: 0px -10px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.mnu {
+	margin: 40px 40px 20px 40px;
+	background: linear-gradient(#53212B, #BD3944);
+	border-radius: 10px;
+}
+
+.mnu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 15px;
+	overflow: hidden;
+}
+.mnu a{
+	width: 50px;
+}
+.mnu img {
+	width: 50px;
+}
+		
+.mnu ul li {
+	float: left;
+	padding: 0 10px;
+}
+
+.mnu ul li a {
+	border-radius: 10px;
+	padding: 10px 20px 10px 20px;
+	color: white;
+	cursor: pointer;
+	font-weight: 500;
+}
+
+.mnu li a:hover {
+	background: #282828;
+	border-bottom: 3px solid #ff4655;
+}
+
+.info h2, p {
+	color: white;
+	font-weight: bold;
+}
+p b {
+	font-size: 25px;
+}
+.info {
+	height: 255px;
+	margin: 0px 40px 40px 40px;
+	padding: 10px;
+	background: linear-gradient(#BD3944, #53212B);
+	border-radius: 10px;
+}
+
+.info img {
+	margin-right: 10px;
+	max-width: 400px;
+	height: 225px;
+	float: left;
+	border-radius: 10px;
+	display: flex;
+}

@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "DIN Next LT Pro Bold", sans-serif;
+	background-image: url(valo4.jpg);
+	background-color: #0a0e13;
+	background-position: 0px -10px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.subforum-column a{
+	font-size: 17px;
+    color:#ff4655;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.container{
+	font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+    color:#FEFEFE;
+    margin: 0px 20px;
+    padding: 20px;
+}
+
+.subforum{
+    margin-top:20px;
+}
+
+.subforum-title{
+    background-color:#292B2E;
+    padding: 10px;
+    border-radius: 5px;
+    margin:4px;
+}
+
+.subforum-title a{
+	color: #ff4655;
+	font-weight: bold;
+	
+}
+
+a:hover {
+	color: #ece8e1;
+}
+.subforum-row{
+    display: grid;
+    grid-template-columns: 15% 60% 13% 20%;
+}
+
+.subforum-column{
+    padding: 10px;
+    margin:4px;
+    border-radius: 5px;
+    background-color:#111314;
+}
+
+.subforum-description *{
+    margin-block: 0;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subforum-icon img{
+	border-radius: 5px;
+	width: 100%;
+    font-size: 45px;
+}
+
+.subforum-devider{
+    display: none;   
+}
